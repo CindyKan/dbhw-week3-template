@@ -26,9 +26,8 @@ SinglyLinkedList.prototype.remove = function(data) {
   if(data === current.data){
     this.head = this.head.next;
     this.numberOfValues--;
-};
-
-Selse{
+  }
+  else{
     var previous = current;
     current = current.next;
 
